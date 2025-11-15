@@ -111,3 +111,20 @@ ul, ol {
     background-color: #a0522d; 
     color: #fff;
 }
+/* Media Query para Dispositivos Menores (Celulares e Tablets) */
+@media screen and (max-width: 768px) {
+    
+    /* Faz o container principal ocupar toda a largura da tela */
+    article {
+        max-width: 100%; 
+        /* Diminui o espaço interno para telas pequenas */
+        padding: 15px; 
+        /* Remove a sombra para melhorar a performance em mobile */
+        box-shadow: none; 
+    }
+    
+    /* Reduz o tamanho do título em telas pequenas */
+    h1 {
+        font-size: 1.8em; 
+    }
+}
